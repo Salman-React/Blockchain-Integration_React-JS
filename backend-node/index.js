@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors())
 
 // Connect to TestNet using Infura
-const web3 = new Web3('https://mainnet.infura.io/v3/023ab9055c2f4f719d5d3beca0cf47d9');
+const web3 = new Web3('https://mainnet.infura.io/v3/YOUR-API-KEY');
 
 app.get('/api/testConnection', async (req, res) => {
   try {
