@@ -1,3 +1,5 @@
+React JS Frontend with Node JS api for connecting to Ethereum Blockchain network using INFURA.IO
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
